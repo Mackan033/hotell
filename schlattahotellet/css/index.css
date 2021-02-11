@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper {
+    padding: 0 3rem;
+    display: flex;
+    align-items: center;
+}
+
+header {
+    background: #444;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+}
+
+.logo {
+    width: 30%;
+    flex: 1;
+  
+}
+
+.logo a {
+    text-decoration: none;
+    font-size:  30px;
+    color: #fff;
+    letter-spacing: 5px;
+    
+}
+
+nav {
+    
+    line-height: 100px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin: 0 40px;
+    color: #fff;
+    padding: 40px 20px;
+    transition: all ease-out 0.3s;
+
+}
+
+nav a:hover {
+    background-color: #55d6aa;
+
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.banner area {
+    width: 100%;
+    height: 500px;
+    position: fixed;
+    top: 100px;
+    background-image: url(../img/hotel-1749602_1920.jpg);
+    background-size: cover;
+    background-position: center center;
+
+}
+
+
+button {
+    border: none;
+    color: #444;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 32px;
+    margin:  4px 2px;
+    font-size: 16px;
+    transition: all ease-out 0.3s;
+
+}
+
+button:hover {
+    background-color: #55d6aa;
+    color: #fff;
+}
